@@ -50,7 +50,25 @@ header{
 .header-content h2{
   font-size: 4vmin;
 }
+/* -------------------------- */
+/* contact */
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header__contac{
+  background: linear-gradient(rgba(5 7 12 / .3), rgba(5 7 12 / .3)),url(./assets/img/coraje-computadora.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .explore-content{
+  color: black;
 
+}
+
+/* ------------------------- */
 .line{
   width: 150px;
   height: 4px;

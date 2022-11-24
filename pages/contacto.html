@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar">
-    <h1 class="logo">Isla Fuerteventura</h1>
+    <h1 class="logo">Coraje el perro cobarde</h1>
     <ul class="nav-links">
       <li><a href="../index.html">Inicio</a></li>
       <li><a href="">Nosotros</a></li>
@@ -19,7 +19,7 @@
     </ul>
   </nav>
 
-  <header>
+  <header class="header__contac">
     <div class="header-content">
       <h1>CONTACTO</h1>
       <div class="line"></div>
@@ -28,10 +28,30 @@
   </header>
   <section class="contact">
     <div class="explore-content">
-      <h1>EXPLORÁ</h1>
-      <div class="line"></div>
-      <p>Pasear a lo largo de varios kilómetros a orillas del mar, sobre una arena dorada con aguas turquesas que te acarician a tu paso, es posible en la isla de Fuerteventura, la isla-playa.</p>
-      <a href="#" class="ctn3"></a>
+      <form action="">
+        <li>
+          <label for="nombre">Nombre</label>
+          <input type="text">
+        </li>
+        <li>
+          <label for="telefono">Telefono</label>
+          <input type="number" name="telefono" id="telefono">
+        </li>
+        <li>
+          <label for="password">Contraseña</label>
+          <input type="password" name="password" id="password">
+        </li>
+  
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+  
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" value="Borrar informacion">
+      </form>
+      <a href="#" class="ctn3">Enviar</a>
+    </div>
+    <div class="contact__video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/m3x7mdaRHmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </section>
   <section class="footer">
